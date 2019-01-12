@@ -6,6 +6,12 @@ git clone https://github.com/jcw024/NEAT-retro.git
 cd NEAT-retro
 
 pip install -r requirements.txt
+
+python -m retro.import SpaceInvaders/SpaceInvaders.sfc
+
+python -m retro.import StreetsOfRage2/StreetsOfRage.md
+
+you will also need to move everything in StreetsOfRage2/retro_files/ to a local copy of openai retro at retro/data/stable/StreetsOfRage2-Genesis 
 ### Youtube Links
 Space Invaders (SNES): https://youtu.be/hZ02Lwfw4Ws
 
