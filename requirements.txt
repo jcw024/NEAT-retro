@@ -6,7 +6,7 @@ gym==0.10.9
 idna==2.8
 neat-python==0.92
 numpy==1.15.4
-opencv-python==3.4.5.20
+opencv-python>=4.2.0.32
 pkg-resources==0.0.0
 pyglet==1.3.2
 requests==2.21.0
